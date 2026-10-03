@@ -21,6 +21,7 @@ while [ $# -gt 0 ]; do
 done
 DIR="${1:-.}"
 cd "$DIR" || exit 2
+[ -f gradlew ] || [ -f build.gradle ] || [ -f build.gradle.kts ] || { echo "verify: not an Android project (no gradlew or build.gradle) in $(pwd)" >&2; exit 2; }
 
 OUT=".mobile-agent-proof/$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$OUT"
