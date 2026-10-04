@@ -7,7 +7,7 @@ description: Android Stack Pack for the mobile-dev agent (Kotlin + Jetpack Compo
 
 Requires the **mobile-dev** plugin. If the mobile-dev agent isn't loaded yet, load the `mobile-dev` skill first; this pack only adds the Android specifics.
 
-Files, relative to this pack's root folder, two folders above this file (`${CLAUDE_PLUGIN_ROOT}` in Claude Code, `stacks/android/` in a copied install):
+Files, relative to the pack root: `../../` from this SKILL.md (`${CLAUDE_PLUGIN_ROOT}` in Claude Code, `.mobile-agent/stacks/android/` in a copied install):
 
 | File | Holds | Read it when |
 |---|---|---|
