@@ -11,7 +11,5 @@
     "mobile",
     "android"
   ],
-  "skills": [
-    "./skills/"
-  ]
+  "skills": "./skills/"
 }
